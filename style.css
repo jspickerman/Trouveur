@@ -1,0 +1,321 @@
+/*
+ Theme Name:     Silvia Child Theme
+ Author:    Jonathan Spickerman
+ Template:       silvia
+ Version:        1.0.0
+
+Override style sheet for the Silvia child theme. Ya dig?
+*/
+
+@import url("../silvia/style.css");
+
+/* Globals and general page layout rules */
+
+p
+{
+    font-size: 24px;
+}
+
+h3, p, .gigpress-listing, .gigpress-empty
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#masthead
+{
+    padding: 0px;
+}
+
+.overlay
+{
+    width: 100%;
+    height: 100vh;
+    background: rgba(99, 99, 107, 0.56);
+}
+
+.content-area
+{
+    float: left;
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 0%;
+}
+
+.widget-area
+{
+    width: 25%;
+    float: right;
+    margin-right: 5%;
+}
+
+.site-content
+{
+    display: block;
+    overflow: auto;
+    min-height: 750px;
+}
+
+.container
+{
+    max-width: 98%;
+    background-color: rgba(66, 66, 66, 0.3);
+}
+
+.post-container, .entry-content
+{
+    background-color: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+.entry-content, .container
+{
+    min-height: 750px;
+}
+
+.entry-content
+{
+    min-width: 100%;
+}
+
+.site-info p
+{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 18px;
+    color: #F3F3F3;
+}
+
+/* Single Column Specefic Rules */
+
+#primary
+{
+    margin: 0px;
+}
+
+/* Nav */
+
+.main-navigation
+{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.68);
+}
+
+.menu-primary-items li.current-menu-item > a
+{
+    color: rgb(209, 209, 209);
+    border-bottom: 1px solid #787878;
+}
+
+.menu-primary-items a
+{
+    text-transform: uppercase;
+    color: #ECE1E1;
+    border-bottom: 1px solid transparent;
+    font-size: 24px;
+}
+
+.menu-primary-items a:hover
+{
+         color:  #ABA1A1;
+         border-bottom: 1px solid #000;
+}
+
+/* Sidebar */
+
+.widget-area
+{
+    margin-top: 13.5px;;
+    background-color: rgba(0, 0, 0, 0.11);
+    box-shadow: 1px 2px 25px #2C2C2C;
+}
+
+.widget-title
+{
+    margin: 0px;
+    color: rgb(255, 252, 252);
+    background-color: rgba(0, 0, 0, 0.16);
+    font-size: 15px;
+}
+
+.widget li
+{
+    border-bottom: 1px solid rgb(71, 71, 71);
+}
+
+.gigpress-listing span
+{
+    color: #F3F3F3;
+}
+
+/* Home Page */
+
+body.page-id-10
+{
+    background-image: url('http://trouveurband.com/wp-content/uploads/2015/10/homeBackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#newsHeader
+{
+    font-size: 85px;
+    color: #F3F3F3;
+    font-family: 'Alex Brush', cursive;
+    text-shadow: 5px 2px 5px #3C3B3B;
+    margin-bottom: 0px;
+}
+
+.post-container
+{
+    min-width: 100%;
+    margin-bottom: 15px;
+    box-shadow: 1px 2px 25px #2C2C2C;
+}
+
+.post-title
+{
+    font-family: "Crimson Text",serif;
+    color: white;
+    background: rgba(0, 0, 0, 0.15);
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.post-container p
+{
+    color: #F3F3F3;
+    font-size: 22px;
+    text-shadow: 5px 2px 15px #090909;
+}
+
+.site-footer
+{
+    background-color: rgba(0, 0, 0, 0.68);
+}
+
+@media screen and (max-width: 801px)
+{
+  .post-container p
+  {
+    font-size: 18px;
+  }
+}
+
+/* About Page */
+
+body.page-id-28
+{
+    background-image: url('http://trouveurband.com/wp-content/uploads/2015/10/aboutBackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.page-id-28 p
+{
+    color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#post-28
+{
+    background-color: rgba(0, 0, 0, 0.11);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#post-28 h1
+{
+    font-size: 48px;
+    padding-top: 1%;
+}
+
+/* Music Page */
+
+body.page-id-30
+{
+    background-image: url('http://trouveurband.com/wp-content/uploads/2015/10/musicBackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#post-30
+{
+    background-color: rgba(0, 0, 0, 0.21);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.page-id-30 p, h1,  h3, li
+{
+    color: white;
+}
+
+.page-id-30 h1
+{
+    padding-top: 15px;
+}
+
+.page-id-30 .entry-content
+{
+    margin: 0px auto;
+    width: 100%;
+}
+
+.albumContainer
+{
+    height: 100%;
+    display: inline;
+}
+
+.tracklisting
+{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 40%;
+    list-style: outside none none;
+    padding: 0px;
+}
+
+.tracklisting > li:nth-child(2n+1)
+{
+    background-color: rgba(0, 0, 0, 0.21);
+}
+
+.songName
+{
+    font-size: 20px;
+    height: 45px;
+    padding-left: 5px;
+    line-height: 45px;
+}
+
+/* Shows Page */
+
+body.page-id-32
+{
+    background-image: url('http://trouveurband.com/wp-content/uploads/2015/10/showsBackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#post-32
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.page-id-32 h1
+{
+     padding-top: 15px;
+}

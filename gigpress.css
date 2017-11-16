@@ -1,0 +1,31 @@
+/*
+    Created on : Oct 8, 2015, 9:26:47 PM
+    Author     : Jonathan Spickerman
+*/
+
+.gigpress-table
+{
+    width: 50%;
+    margin: 0 auto;
+    border: none;
+}
+
+.gigpress-date, .gigpress-city, .gigpress-venue, .gigpress-info-item, .gigpress-empty
+{
+    color: #FFF;
+    text-shadow: 5px 2px 15px #090909;
+    font-size: 18px;
+}
+
+span.gigpress-info-label
+{
+    color: #FFF;
+}
+
+@media screen and (max-width: 801px)
+{
+  .gigpress-date, .gigpress-city, .gigpress-venue, .gigpress-info-item, .gigpress-empty
+  {
+    font-size: 14px;
+  }
+}
